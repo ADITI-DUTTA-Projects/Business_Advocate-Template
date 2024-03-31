@@ -1,0 +1,357 @@
+@media only screen and (max-width: 991.98px) {
+
+    /* ===side-sticky-bar ===*/
+    .side-sticky-bar {
+        min-width: 3.5vw;
+    }
+
+    .side-sticky-bar a {
+        font-size: 1.5rem;
+    }
+
+    /* ===banner style=== */
+    #banner #banner-note-wrapper button {
+        padding: 0.5rem 1rem;
+        margin-top: unset;
+        font-size: 0.8rem;
+    }
+
+    #banner #banner-note-wrapper p {
+        font-size: 0.8rem;
+    }
+
+    /*===Get_To_Know_Div style===*/
+    #getToKnowUs p {
+        font-size: clamp(0.8rem, 1.2vw, 3rem);
+    }
+
+    #getToKnowUs button {
+        padding: 0.5rem 1rem;
+        font-size: clamp(1rem, 5vw, 1.1rem);
+        margin-top: 1rem;
+    }
+
+    /*=== who-we-serve ===*/
+    #who-we-serve .who-we-serve-headline-wrapper {
+        padding: 5rem 8rem 2rem;
+    }
+
+    #who-we-serve .who-we-serve-headline-wrapper h3 {
+        font-size: clamp(1rem, 5vw, 3rem);
+        padding: 2rem 0 2rem 0;
+    }
+
+    #who-we-serve .who-we-serve-headline-wrapper p {
+        font-size: clamp(0.5rem, 2vw, 1.2rem);
+    }
+
+    #who-we-serve .card {
+        height: auto;
+        position: relative;
+    }
+
+    #who-we-serve .card-image {
+        position: relative;
+        height: 10svh;
+    }
+
+    #who-we-serve .card-title {
+        /* padding: 0rem 0.8rem 0; */
+        font-size: clamp(0.5rem, 3.5vw, 1.5rem);
+        height: 7svh;
+    }
+
+    #who-we-serve .card-text {
+        height: 10svh;
+        font-size: clamp(0.5rem, 3vw, 1.2rem);
+    }
+
+    /*===what-we-do style===*/
+
+    #what-we-do .what-we-do-headline-wrapper {
+        padding: 3rem 8rem 2rem;
+    }
+
+    #what-we-do {
+        position: relative;
+        background: url(../images/what-we-do.jpg) center;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 5rem;
+    }
+
+    #what-we-do .what-we-do-wrapper {
+        background: unset;
+        height: unset;
+        background-size: unset;
+        background-repeat: unset;
+        position: unset;
+        padding: unset;
+    }
+
+    .what-we-do-card-wrapper {
+        top: 0rem;
+    }
+
+    #what-we-do .card {
+        position: relative;
+        min-height: auto;
+    }
+
+    #what-we-do .card-title {
+        padding: 1rem;
+        font-size: clamp(0.5rem, 3.5vw, 1.5rem);
+        height: 5svh;
+    }
+
+    #what-we-do .card-text {
+        padding: 0 2rem;
+        font-size: clamp(0.5rem, 5vw, 1.2rem);
+        height: 7svh;
+    }
+
+    /*===footer style===*/
+    .footer-details-wrapper .mailing p {
+        letter-spacing: 0.08rem;
+    }
+
+    footer .footer-headline h4 {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (max-width: 767.98px) {
+
+    /* ===side-sticky-bar ===*/
+    .side-sticky-bar {
+        min-width: 3vw;
+    }
+
+    .side-sticky-bar a {
+        font-size: 1rem;
+    }
+
+    /* ===banner style=== */
+    #banner #banner-note-wrapper {
+        margin-left: 5%;
+    }
+
+    #banner #banner-note-wrapper h1 {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    #banner #banner-note-wrapper p {
+        font-size: 0.6rem;
+    }
+
+    #banner #banner-note-wrapper button {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.5rem;
+        margin-top: unset;
+    }
+
+    /*===Get_To_Know_Div style===*/
+    #getToKnowUs h2 {
+        text-align: center;
+    }
+
+    #getToKnowUs h3 {
+        font-size: clamp(1rem, 5vw, 3rem);
+        width: auto;
+        text-align: center;
+    }
+
+    #getToKnowUs p {
+        font-size: clamp(1rem, 1.2vw, 3rem);
+        margin-top: 2rem;
+    }
+
+    #getToKnowUs button {
+        padding: 0.5rem 1rem;
+        font-size: clamp(1rem, 5vw, 1.1rem);
+        margin-top: 1rem;
+    }
+
+    /*=== who-we-serve ===*/
+    #who-we-serve .who-we-serve-headline-wrapper {
+        padding: 5rem 5rem 2rem;
+    }
+
+    #who-we-serve .card {
+        height: 25vh;
+        position: relative;
+        margin-top: 1rem;
+    }
+
+    #who-we-serve .card-image {
+        position: relative;
+        height: 10svh;
+    }
+
+    #who-we-serve .card-title {
+        padding: 0rem 0.8rem 0;
+        font-size: clamp(0.5rem, 2.5vw, 1.5rem);
+        height: 5svh;
+    }
+
+    #who-we-serve .card-text {
+        height: 5svh;
+        font-size: clamp(0.5rem, 2vw, 1.2rem);
+    }
+
+    /*===what-we-do style===*/
+    #what-we-do {
+        position: relative;
+        background: #1d1655;
+        background: url(../images/what-we-do.jpg) center;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 5rem;
+    }
+
+    .what-we-do-card-wrapper {
+        top: 0;
+    }
+
+    #what-we-do .card {
+        position: relative;
+        min-height: auto;
+    }
+
+    #what-we-do .card-title {
+        padding: 1rem;
+        font-size: clamp(0.5rem, 2.5vw, 1.5rem);
+        font-weight: bold;
+        height: 5svh;
+    }
+
+    #what-we-do .card-text {
+        padding: 0 2rem;
+        font-size: clamp(0.5rem, 5vw, 1.2rem);
+        height: 10svh;
+    }
+
+    #what-we-do .what-we-do-headline-wrapper {
+        padding: 3rem 5rem 2rem;
+    }
+
+    #what-we-do .what-we-do-headline-wrapper p {
+        font-size: clamp(0.5rem, 2vw, 1.2rem);
+        color: #fff;
+    }
+
+    #what-we-do .what-we-do-wrapper {
+        background: unset;
+        height: unset;
+        background-size: unset;
+        background-repeat: unset;
+        position: unset;
+        padding: unset;
+    }
+
+    /*=== footer===*/
+    footer .footer-headline h4 {
+        font-size: 1.3rem;
+    }
+
+    .footer-details-wrapper {
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+
+    /* ===banner style=== */
+    #banner {
+        display: none;
+    }
+
+
+    /*===Get_To_Know_Div style===*/
+    #getToKnowUs .get-to-know-wrapper {
+        padding: 5rem 0;
+        margin-top: 3rem;
+    }
+
+    #getToKnowUs button {
+        padding: 0.5rem 1rem;
+        font-size: clamp(1rem, 5vw, 1.1rem);
+        margin-top: 1rem;
+    }
+
+    /*===what-we-do style===*/
+    #what-we-do .card {
+        position: relative;
+        min-height: auto;
+        margin-top: 1rem;
+    }
+
+    #what-we-do .what-we-do-headline-wrapper {
+        padding: 3rem 5rem 1rem;
+    }
+
+    #what-we-do .what-we-do-headline-wrapper h3 {
+        padding: 1rem 0 1rem 0;
+    }
+
+    #what-we-do .card-title {
+        font-size: clamp(0.5rem, 3vw, 1.5rem);
+        height: 7svh;
+    }
+
+    #what-we-do .card-text {
+        font-size: clamp(0.5rem, 2.5vw, 1.2rem);
+        height: 5svh;
+    }
+
+    /*===what-we-do style===*/
+
+    #who-we-serve .who-we-serve-headline-wrapper {
+        padding: 3rem 5rem 0;
+    }
+
+    #who-we-serve .card {
+        height: auto;
+        position: relative;
+        margin-top: 1rem;
+    }
+
+    #who-we-serve .card-image {
+        position: relative;
+        height: 7svh;
+    }
+
+    #who-we-serve .card-title {
+        padding: 0rem 0.8rem 0;
+        font-size: clamp(0.5rem, 3.5vw, 1.5rem);
+        height: 5svh;
+    }
+
+    #who-we-serve .card-text {
+        height: 5svh;
+        font-size: clamp(0.5rem, 3.5vw, 1.2rem);
+    }
+
+    #who-we-serve .who-we-serve-headline-wrapper h3 {
+        padding: 2rem 0 1rem 0;
+    }
+
+    /* ===side-sticky-bar ===*/
+    .side-sticky-bar {
+        min-width: 2.5vw;
+        top: 20%;
+    }
+
+    .side-sticky-bar a {
+        font-size: 0.8rem;
+    }
+
+    /*=== footer===*/
+    .footer-logo {
+        border-right: none;
+    }
+}

@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+form .form-control {
+    border-radius: none;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+
+.img-wrapper {
+    height: auto;
+    width: auto;
+}
+
+/*===== Variable Define =====*/
+:root {
+    --color-orange: #eb7a30;
+    --nav-text: #bbbbb6;
+    --text-black: #000000;
+    --primary-font: 'Roboto', sans-serif;
+    --secondry-font: 'Quicksand', sans-serif;
+}
+
+/* =====Navigation Style===== */
+.nav-link-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    color: var(--text-black);
+    font-weight: 400;
+}
+
+/* ===side-sticky-bar ===*/
+
+.side-sticky-bar {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 3.5rem;
+    z-index: 99;
+}
+
+.side-sticky-bar a {
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    transition: 0.1s ease-in;
+    margin: 0.1rem 0 0.1rem;
+}
+
+.facebook {
+    background-color: #c8b470;
+    color: #FFF;
+    transition: 0.3s all ease-in;
+}
+
+.facebook:hover {
+    background-color: #2C80D3;
+    color: #FFF;
+}
+
+.instagram {
+    background-color: #fff;
+    color: #c8b470;
+    transition: 0.3s all ease-in;
+}
+
+.instagram:hover {
+    background-image: linear-gradient(to top right, #fccc63, #fbad50, #cd486b, #4c68d7);
+    color: #FFF;
+}
+
+.pinterest {
+    background-color: #c8b470;
+    color: #FFF;
+    transition: 0.3s all ease-in;
+}
+
+.pinterest:hover {
+    background-color: #E60023;
+    color: #FFF;
+}
+
+.linkedin {
+    background-color: #fff;
+    color: #c8b470;
+    transition: 0.3s all ease-in;
+}
+
+.linkedin:hover {
+    background-color: #0A66C2;
+    color: #FFF;
+}
+
+/* ===banner style=== */
+#banner {
+    height: auto;
+    width: 100%;
+}
+
+
+#banner .carousel-control-prev,
+#banner .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: unset;
+    transition: opacity .15s ease;
+}
+
+#banner #banner-note-wrapper {
+    position: absolute;
+    z-index: 999;
+    margin-top: 15%;
+    margin-left: 5%;
+    max-height: 50vh;
+}
+
+#banner #banner-note-wrapper h1 {
+    font-size: clamp(1rem, 5vw, 4rem);
+    color: #fff;
+}
+
+#banner #banner-note-wrapper p {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: lighter;
+    width: 50vw;
+}
+
+#banner #banner-note-wrapper button {
+    background-color: #c8b470;
+    border-radius: 0%;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    transition: all 0.3s linear;
+}
+
+#banner #banner-note-wrapper button:hover {
+    background-color: #fff;
+    color: #c8b470;
+}
+
+/*===Get_To_Know_Div style===*/
+#getToKnowUs .get-to-know-wrapper {
+    padding: 5rem 0;
+}
+
+#getToKnowUs h2 {
+    color: #a08d4d;
+    font-size: 1.5rem;
+    font-family: 'Arial';
+    font-weight: bold;
+    word-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#getToKnowUs h3 {
+    color: #000000;
+    font-size: clamp(1rem, 4vw, 3rem);
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 1rem 0 2rem 0;
+    text-align: left;
+    width: 50svw;
+}
+
+#getToKnowUs p {
+    font-size: clamp(1rem, 1.3vw, 5rem);
+    color: var(--text-black);
+    font-weight: lighter;
+}
+
+#getToKnowUs button {
+    background-color: #c8b470;
+    border-radius: 0%;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    transition: all 0.3s linear;
+}
+
+#getToKnowUs button:hover {
+    background-color: #fff;
+    color: #c8b470;
+}
+
+/*===what-we-do style===*/
+#what-we-do {
+    position: relative;
+}
+
+#what-we-do .what-we-do-wrapper {
+    background: url(../images/what-we-do.jpg) center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0 0 20rem;
+}
+
+#what-we-do .what-we-do-headline-wrapper {
+    padding: 3rem 15rem 2rem;
+}
+
+#what-we-do .what-we-do-headline-wrapper h3 {
+    color: #fff;
+    font-size: clamp(1rem, 5vw, 3rem);
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 2rem 0 2rem 0;
+}
+
+#what-we-do .what-we-do-headline-wrapper p {
+    font-size: clamp(0.5rem, 5vw, 1.2rem);
+    color: #fff;
+}
+
+.what-we-do-card-wrapper {
+    position: relative;
+    top: 20rem;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#what-we-do .card {
+    position: relative;
+    min-height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#what-we-do .card-title {
+    padding: 1rem;
+    font-size: clamp(0.5rem, 2.5vw, 1.5rem);
+    font-weight: bold;
+    height: 12svh;
+}
+
+#what-we-do .card-text {
+    padding: 0 2rem;
+    font-size: clamp(0.5rem, 5vw, 1.2rem);
+    height: 12svh;
+}
+
+#what-we-do .card-badge {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#what-we-do .card-badge span {
+    background-color: #c8b470;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-top: -5rem;
+}
+
+
+/*=== who-we-serve ===*/
+#who-we-serve {
+    background: url('../images/who-we-serve.jpg') center;
+    padding-bottom: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+#who-we-serve .who-we-serve-headline-wrapper {
+    padding: 27rem 15rem 2rem;
+}
+
+#who-we-serve .who-we-serve-headline-wrapper h3 {
+    color: var(--text-black);
+    font-size: 3rem;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#who-we-serve .who-we-serve-headline-wrapper p {
+    font-size: 1.2rem;
+    color: var(--text-black);
+}
+
+#who-we-serve .card {
+    height: auto;
+    position: relative;
+    transition: all 0.3s ease-in;
+    box-shadow: inset;
+}
+
+#who-we-serve .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+#who-we-serve .card-image {
+    position: relative;
+    height: 10svh;
+}
+
+#who-we-serve .card-image>img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#who-we-serve .card-title {
+    font-size: clamp(0.5rem, 3vw, 1.5rem);
+    font-weight: bold;
+    height: 10svh;
+}
+
+#who-we-serve .card-text {
+    font-size: 1.2rem;
+    text-align: center;
+    height: 10svh;
+}
+
+/*===footer style===*/
+footer {
+    background-color: #060058;
+    height: auto;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.footer-headline {
+    padding-top: 5rem;
+}
+
+.footer-logo {
+    border-right: #fff 2px solid;
+}
+
+.footer-details-wrapper {
+    padding-top: 5rem;
+}
+
+.footer-details-wrapper .mailing p {
+    letter-spacing: 0.15rem;
+}
